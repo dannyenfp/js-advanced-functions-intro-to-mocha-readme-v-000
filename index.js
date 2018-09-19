@@ -7,7 +7,7 @@ function sayHey(){
 }
 
 function sayHeyFriend(name) { 
-  return `Hey ${name}!`; 
+  return `Hey, ${name}!`; 
 }
 
 function favoriteIceCream(flavor) {
@@ -19,5 +19,5 @@ function shouting(sentence) {
 }
 
 function roundDown(num){ 
-  Math.floor(num);
+  return Math.floor(num);
 } 
